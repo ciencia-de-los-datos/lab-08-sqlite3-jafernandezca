@@ -136,7 +136,7 @@ jobs:
       uses: education/autograding-command-grader@v1
       with:
         test-name: Tests 14
-        setup-command: pip3 install pandas==1.1.5
+        setup-command: pip3 install pandas
         command: python3 tests.py 14
         timeout: 10
         max-score: 1
